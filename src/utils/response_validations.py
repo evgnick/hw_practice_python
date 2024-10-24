@@ -5,7 +5,7 @@ from src.utils.errors import GlobalErrorMessage
 
 class ResponseValidations:
 
-    def __init__(self, response: Response):
+    def __init__(self, response: Response) -> object:
         self.response = response
 
     def assert_status_code(self, expected_status_code):
@@ -27,3 +27,6 @@ class ResponseValidations:
 
     def assert_json(self):
         pass
+
+
+validation = ResponseValidations
