@@ -12,6 +12,7 @@ class GlobalErrorMessage(BaseErrorMessage):
     WRONG_ELEMENT_COUNT = "Number of items is not equal to expected. Actual: {}, expected: {}"
     VALIDATION_ERROR = "Validation schema error: {}"
     WRONG_DELETE_FIELD = "The field doesn't exist: {}"
+    WRONG_JSON_TEXT = "JSON text is not equal to expected. Actual: {}, expected: {}"
 
 
 class CaseErrorMessage(BaseErrorMessage):
